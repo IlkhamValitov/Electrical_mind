@@ -1,0 +1,72 @@
+html,
+body {
+  margin: 0;
+  background-color: #f2e4ff;
+  height: 100vh;
+}
+html #outer_container,
+body #outer_container {
+  height: 100vh;
+}
+html #outer_container .main_container,
+body #outer_container .main_container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+html #outer_container .main_container .header_block,
+body #outer_container .main_container .header_block {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+html #outer_container .main_container .header_block .logo,
+body #outer_container .main_container .header_block .logo {
+  width: fit-content;
+  padding: 5px;
+  margin: 10px;
+}
+html #outer_container .main_container .header_block .logo .logo_title,
+body #outer_container .main_container .header_block .logo .logo_title {
+  margin: 0;
+  color: #141414;
+}
+html #outer_container .main_container .header_block .navigate_block,
+body #outer_container .main_container .header_block .navigate_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+html #outer_container .main_container .header_block .navigate_block .button,
+body #outer_container .main_container .header_block .navigate_block .button {
+  background-color: #0b23ac;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+html #outer_container .main_container .center_block .center_section .main_topic_block,
+body #outer_container .main_container .center_block .center_section .main_topic_block {
+  background-image: url(../img/1609.jpg);
+  height: 30%;
+}
+html #outer_container .main_container .footer_block,
+body #outer_container .main_container .footer_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: 100vw;
+}
+html #outer_container .main_container .footer_block .author_inf,
+body #outer_container .main_container .footer_block .author_inf {
+  width: max-content;
+  padding: 0px 5px;
+  color: #f2e4ff;
+  background-color: #141414;
+  border-radius: 12px;
+}

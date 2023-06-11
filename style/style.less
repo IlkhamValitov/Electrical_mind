@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+    background-color: #f2e4ff;
+    height: 100vh;
+    #outer_container{
+        height: 100vh;
+        .main_container{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            .header_block{
+                width: 100vw;
+                display: flex;
+                flex-direction: column;
+                .logo{
+                    width: fit-content;
+                    padding: 5px;
+                    margin: 10px;
+                    // background-color: #141414;
+                    // border-radius: 17px;
+                    .logo_title{
+                        margin: 0;
+                        color: /*rgb(11, 35, 172)*/ #141414;
+                    }
+                }
+                .navigate_block{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    .button{
+                        background-color: rgb(11, 35, 172); /* Green */
+                        border: none;
+                        color: white;
+                        padding: 15px 32px;
+                        margin: 5px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                    }
+                }
+            }
+            .center_block{
+                .center_section{
+                    .main_topic_block{
+                        background-image: url(../img/1609.jpg);
+                        height: 30%;
+                    }
+                }
+
+            }
+            .footer_block{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+                width: 100vw;
+                .author_inf{
+                    width:max-content;
+                    padding: 0px 5px;
+                    color: #f2e4ff;
+                    background-color: #141414;
+                    border-radius: 12px;
+                }
+                
+
+            }
+        }
+    }
+}
