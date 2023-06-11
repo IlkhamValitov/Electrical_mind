@@ -6,7 +6,7 @@
         <script src="script/script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body>
+    <body> 
         <div id="outer_container">
             <div class="main_container">
                 <header class="header_block">
