@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="style/style.css">
         <script src="script/script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
     </head>
     <body> 
         <div id="outer_container">
