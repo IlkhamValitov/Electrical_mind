@@ -61,6 +61,8 @@ body #outer_container .main_container .center_block {
   max-width: 1366px;
   height: 100%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 html #outer_container .main_container .center_block .center_section,
 body #outer_container .main_container .center_block .center_section {
@@ -70,7 +72,7 @@ html #outer_container .main_container .center_block .center_section .main_topic_
 body #outer_container .main_container .center_block .center_section .main_topic_block {
   background-image: url(../img/1609.jpg);
   background-repeat: no-repeat;
-  height: 30%;
+  height: 24%;
 }
 html #outer_container .main_container .center_block .center_section .main_topic_block .main_topic,
 body #outer_container .main_container .center_block .center_section .main_topic_block .main_topic {
@@ -79,6 +81,26 @@ body #outer_container .main_container .center_block .center_section .main_topic_
   font-size: 4vw;
   text-align: center;
   font-family: 'IBM Plex Mono', monospace;
+}
+html #outer_container .main_container .center_block .center_section .news_title,
+body #outer_container .main_container .center_block .center_section .news_title {
+  padding: 1%;
+  margin: 1%;
+  border-bottom: 3px solid #0b23ac;
+  width: fit-content;
+}
+html #outer_container .main_container .center_block .center_section .news_block .news_text .certain_news_title,
+body #outer_container .main_container .center_block .center_section .news_block .news_text .certain_news_title {
+  padding: 0 1%;
+}
+html #outer_container .main_container .center_block .center_section .news_block .news_text .main_text,
+body #outer_container .main_container .center_block .center_section .news_block .news_text .main_text {
+  width: 50%;
+  padding: 0 1%;
+}
+html #outer_container .main_container .center_block .center_section .news_block .news_text .main_text p,
+body #outer_container .main_container .center_block .center_section .news_block .news_text .main_text p {
+  text-align: justify;
 }
 html #outer_container .main_container .footer_block,
 body #outer_container .main_container .footer_block {

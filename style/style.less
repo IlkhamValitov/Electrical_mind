@@ -50,12 +50,14 @@ html, body{
                 max-width: 1366px;
                 height: 100%;
                 margin: auto;
+                display: flex; //
+                flex-direction: column;
                 .center_section{
                     height: 100%;
                     .main_topic_block{
                         background-image: url(../img/1609.jpg);
                         background-repeat: no-repeat;
-                        height: 30%;
+                        height: 24%;
                         
                         .main_topic{
                             padding-top: 50px;
@@ -63,6 +65,29 @@ html, body{
                             font-size: 4vw;
                             text-align: center;
                             font-family: 'IBM Plex Mono', monospace;
+                        }
+                    }
+                    .news_title{
+                        padding: 1%;
+                        margin: 1%;
+                        border-bottom: 3px solid rgb(11, 35, 172);
+                        width: fit-content;
+                    }
+                    .news_block{
+                        .news_text{
+                            .certain_news_title{
+                                padding: 0 1%;
+
+                            }
+                            .main_text{
+                                width: 50%;
+                                padding: 0 1%;
+                                p{
+                                    text-align: justify;
+                                }
+
+                            }
+                            
                         }
                     }
                 }
