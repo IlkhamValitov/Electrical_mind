@@ -2,6 +2,11 @@
     font-family: 'IBM Plex Mono', monospace;
     src: url('../font/IBM Plex Mono/IBMPlexMono-Thin.ttf');
 }
+@font-face {
+    font-family: 'Inter', sans-serif;
+    src: url('../font/Inter/Inter-VariableFont_slnt,wght.ttf');
+}
+
 html, body{
     margin: 0;
     background-color: #f2e4ff;
@@ -23,11 +28,22 @@ html, body{
                     width: fit-content;
                     padding: 5px;
                     margin: 10px;
+                    display: flex;
+                    flex-direction: row;
                     // background-color: #141414;
                     // border-radius: 17px;
-                    .logo_title{
+                    .first_word{
                         margin: 0;
-                        color: /*rgb(11, 35, 172)*/ #141414;
+                        color: /*rgb(11, 35, 172)*/ #f2e4ff;
+                        background-color: rgb(11, 35, 172);
+                        padding: 3%;
+                    }
+                    .second_word{
+                        margin: 0;
+                        color: #141414; 
+                        padding: 3%; 
+
+
                     }
                 }
                 .navigate_block{
@@ -36,7 +52,7 @@ html, body{
                     justify-content: center;
                     .button{
                         background-color: rgb(11, 35, 172); /* Green */
-                        color: white;
+                        color: #f2e4ff;
                         padding: 15px 32px;
                         margin: 5px;
                         text-align: center;
@@ -72,22 +88,99 @@ html, body{
                         margin: 1%;
                         border-bottom: 3px solid rgb(11, 35, 172);
                         width: fit-content;
-                    }
-                    .news_block{
-                        .news_text{
-                            .certain_news_title{
-                                padding: 0 1%;
+                        font-family: 'Inter', sans-serif;
 
+                    }
+                    .article_title{
+                        padding: 1%;
+                        margin: 1%;
+                        border-bottom: 3px solid rgb(11, 35, 172);
+                        width: fit-content;
+                    }
+                    .news_container{
+                        margin: 3% auto 0;
+                        width: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        .certain_news{
+                            display: flex;
+                            flex-direction: row;
+                            width: 100%;
+                            margin-bottom: 1%;
+                            .img_container{
+                                width: 20%;
+                                img{
+                                    width: 100%;
+                                }
                             }
-                            .main_text{
-                                width: 50%;
-                                padding: 0 1%;
+                            .text_container{
+                                width: 75%;
+                                .certain_news_title{
+                                    margin: 0 0 0 1%;
+                                    font-family: 'Inter', sans-serif;
+            
+                                }
                                 p{
+                                    margin: 2% 0 0 1%;
                                     text-align: justify;
+                                    font-family: 'Inter', sans-serif;
                                 }
 
                             }
-                            
+
+                        }
+
+                    }
+
+                    .news_block{//данные стили будут применены к модулю полного просмотра новости
+                        .news_text{
+                            .certain_news_title{
+                                padding: 0 1%;
+                            }
+                            .article_content{
+                                display: flex;
+                                width: 98%;
+                                .article_text{
+                                    display: flex;
+                                    flex-direction: row;
+                                    width: 50%;
+                                    padding: 0 1%;
+                                        p{
+                                            text-align: justify;
+                                        }
+                                }
+                                .article_img{
+                                    width: 50%;
+                                    padding-top: 2%;
+                                    img{
+                                        width: 100%;
+                                        
+                                    }
+                                }
+                            }
+                        }
+                    }//
+
+                    .article_title{
+                        font-family: 'Inter', sans-serif;                   
+                    }
+
+                    .featured_article_block{
+                        margin: 1% auto 0;
+                        width: 90%;
+                        display: flex;
+                        flex-direction: column;
+                        .featured_article{
+                            .featured_article_title{
+                                font-family: 'Inter', sans-serif;
+
+                            }
+                            p{
+                                text-align: justify;
+                                margin: 0;
+                                font-family: 'Inter', sans-serif;
+
+                            }
                         }
                     }
                 }
@@ -95,8 +188,22 @@ html, body{
             .footer_block{
                 display: flex;
                 flex-direction: row;
-                justify-content: end;
+                justify-content: space-evenly;
                 width: 100%;
+                .second_nav_block{
+                    width: max-content;
+                    display: flex;
+                    flex-direction: row;
+                    .button{
+                        // padding: 5px;
+                        text-decoration: none;
+                        background-color: rgb(11, 35, 172);
+                        color: #f2e4ff;
+                        padding: 15px 32px;
+                        margin: 2px;
+                    }
+
+                }
                 .author_inf{
                     width: max-content;
                     padding: 0px 5px;
@@ -104,9 +211,101 @@ html, body{
                     background-color: #141414;
                     border-radius: 12px;
                 }
-                
+            }
+        }
+    }
+}
+
+//testing
+    .substrate{
+        background-color: #3a363659;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+    }
+    .show{
+        transition: 1s;
+        visibility: visible;
+        img{
+            width: 50%;
+        }
+    }
+
+//testing
+
+.gallery_section{//данные стили будут применены к модулю галереи
+    display: flex;
+    flex-direction: column;
+    width: 1349px;
+    .photos_block{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        .gallery_title{
+            width: fit-content;
+            border-bottom: 3px solid #0b23ac;
+            display: flex;
+            // margin-left: 2.5%;
+            margin: 1%;
+            padding: 1%;
+        }
+        .photos{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .images_row{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                img{
+                    width: 15%;
+                    margin: 0.5%;
+                    cursor: pointer;
+                    
+                }
+                .zoom{
+                    position: absolute;
+                    width: 600px;
+                    height: 450px;
+                    bottom: 100px;
+                }
+            }
+        }
+    }
+}
+
+.no_scroll{
+    overflow-y: hidden;
+}//
+
+.about_section{
+    display: flex;
+    flex-direction: column;
+    width: 1349px; 
+    .about_block{
+        margin: 1% auto 0;
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        .about_title{
+            width: fit-content;
+            display: flex;
+            // margin-left: 2.5%;
+            margin: 1%;
+            padding: 1%;
+            border-bottom: 3px solid #0b23ac;
+        }
+        .about_article{
+            width: 90%;
+            margin: auto;
+            text-align: justify;
+            .article_title{
 
             }
+            
         }
     }
 }

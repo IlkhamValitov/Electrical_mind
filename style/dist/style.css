@@ -2,10 +2,6 @@
   font-family: 'IBM Plex Mono', monospace;
   src: url('../font/IBM Plex Mono/IBMPlexMono-Thin.ttf');
 }
-@font-face {
-  font-family: 'Inter', sans-serif;
-  src: url('../font/Inter/Inter-VariableFont_slnt,wght.ttf');
-}
 html,
 body {
   margin: 0;
@@ -62,7 +58,7 @@ html #outer_container .main_container .header_block .navigate_block .button,
 body #outer_container .main_container .header_block .navigate_block .button {
   background-color: #0b23ac;
   /* Green */
-  color: #f2e4ff;
+  color: white;
   padding: 15px 32px;
   margin: 5px;
   text-align: center;
@@ -102,7 +98,6 @@ body #outer_container .main_container .center_block .center_section .news_title 
   margin: 1%;
   border-bottom: 3px solid #0b23ac;
   width: fit-content;
-  font-family: 'Inter', sans-serif;
 }
 html #outer_container .main_container .center_block .center_section .article_title,
 body #outer_container .main_container .center_block .center_section .article_title {
@@ -140,13 +135,11 @@ body #outer_container .main_container .center_block .center_section .news_contai
 html #outer_container .main_container .center_block .center_section .news_container .certain_news .text_container .certain_news_title,
 body #outer_container .main_container .center_block .center_section .news_container .certain_news .text_container .certain_news_title {
   margin: 0 0 0 1%;
-  font-family: 'Inter', sans-serif;
 }
 html #outer_container .main_container .center_block .center_section .news_container .certain_news .text_container p,
 body #outer_container .main_container .center_block .center_section .news_container .certain_news .text_container p {
   margin: 2% 0 0 1%;
   text-align: justify;
-  font-family: 'Inter', sans-serif;
 }
 html #outer_container .main_container .center_block .center_section .news_block .news_text .certain_news_title,
 body #outer_container .main_container .center_block .center_section .news_block .news_text .certain_news_title {
@@ -177,10 +170,6 @@ html #outer_container .main_container .center_block .center_section .news_block 
 body #outer_container .main_container .center_block .center_section .news_block .news_text .article_content .article_img img {
   width: 100%;
 }
-html #outer_container .main_container .center_block .center_section .article_title,
-body #outer_container .main_container .center_block .center_section .article_title {
-  font-family: 'Inter', sans-serif;
-}
 html #outer_container .main_container .center_block .center_section .featured_article_block,
 body #outer_container .main_container .center_block .center_section .featured_article_block {
   margin: 1% auto 0;
@@ -188,36 +177,17 @@ body #outer_container .main_container .center_block .center_section .featured_ar
   display: flex;
   flex-direction: column;
 }
-html #outer_container .main_container .center_block .center_section .featured_article_block .featured_article .featured_article_title,
-body #outer_container .main_container .center_block .center_section .featured_article_block .featured_article .featured_article_title {
-  font-family: 'Inter', sans-serif;
-}
 html #outer_container .main_container .center_block .center_section .featured_article_block .featured_article p,
 body #outer_container .main_container .center_block .center_section .featured_article_block .featured_article p {
   text-align: justify;
   margin: 0;
-  font-family: 'Inter', sans-serif;
 }
 html #outer_container .main_container .footer_block,
 body #outer_container .main_container .footer_block {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: end;
   width: 100%;
-}
-html #outer_container .main_container .footer_block .second_nav_block,
-body #outer_container .main_container .footer_block .second_nav_block {
-  width: max-content;
-  display: flex;
-  flex-direction: row;
-}
-html #outer_container .main_container .footer_block .second_nav_block .button,
-body #outer_container .main_container .footer_block .second_nav_block .button {
-  text-decoration: none;
-  background-color: #0b23ac;
-  color: #f2e4ff;
-  padding: 15px 32px;
-  margin: 2px;
 }
 html #outer_container .main_container .footer_block .author_inf,
 body #outer_container .main_container .footer_block .author_inf {
@@ -232,8 +202,8 @@ body #outer_container .main_container .footer_block .author_inf {
   position: absolute;
   visibility: hidden;
   opacity: 0.5;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 .show {
   transition: 1s;
@@ -245,7 +215,7 @@ body #outer_container .main_container .footer_block .author_inf {
 .gallery_section {
   display: flex;
   flex-direction: column;
-  width: 1349px;
+  width: 1360px;
 }
 .gallery_section .photos_block {
   width: 100%;
