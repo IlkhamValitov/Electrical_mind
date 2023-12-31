@@ -14,13 +14,13 @@ $(window).on('load', function() {
 
     for (; i < header_navigation_links.length; i++) {
         $(header_navigation_links[i]).click(transition); //добавить подобный функционал и для ссылок подвала
-        $(footer_navigation_links[i]).click(test);
+        $(footer_navigation_links[i]).click(transition);
     }
 
-    // test function
-    function test() {
-        console.log(1);
-    }
+    // // test function
+    // function test() {
+    //     console.log(1);
+    // }
 
 
 

@@ -346,10 +346,10 @@
                 </div>
                 <footer class="footer_block">
                     <nav class="second_nav_block">
-                        <a href="gallery.php" accesskey="0" class="button">Галерея</a>
-                        <a href="history.php" accesskey="1" class="button">Экскурс в инсторию</a>
-                        <a href="about.php" accesskey="2" class="button">О чем речь?</a>
-                        <a href="contacts.php" accesskey="3" class="button">Контакты</a>
+                        <a href="#" accesskey="0" class="button">Галерея</a>
+                        <a href="#" accesskey="1" class="button">Экскурс в инсторию</a>
+                        <a href="#" accesskey="2" class="button">О чем речь?</a>
+                        <a href="#" accesskey="3" class="button">Контакты</a>
                     </nav>
                     <p class="author_inf">By IV</p>
 
