@@ -4,8 +4,6 @@ $(window).ready(function(){
         document.location.href = "index.php";
     })
 
-
-
     let images = $('.photos .images_row img');
     let substrate = $('.substrate');
     let background = $('body');

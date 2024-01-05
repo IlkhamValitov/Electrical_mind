@@ -351,7 +351,7 @@
                         <a href="#" accesskey="2" class="button">О чем речь?</a>
                         <a href="#" accesskey="3" class="button">Контакты</a>
                     </nav>
-                    <p class="author_inf">By IV</p>
+                    <p class="author_inf"><a class="link" href="mailto:ilkhamvalitov@gmail.com?subject=Обратная связь">By IV</a></p>
 
                 </footer>
 

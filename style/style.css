@@ -12,6 +12,7 @@ body {
   background-color: #f2e4ff;
   height: 4000px;
   width: 100%;
+  overflow-x: hidden;
 }
 html #outer_container,
 body #outer_container {
@@ -238,6 +239,11 @@ body #outer_container .main_container .footer_block .author_inf {
   color: #f2e4ff;
   background-color: #141414;
   border-radius: 12px;
+}
+html #outer_container .main_container .footer_block .author_inf .link,
+body #outer_container .main_container .footer_block .author_inf .link {
+  text-decoration: none;
+  color: inherit;
 }
 .substrate {
   background-color: #3a363659;
