@@ -248,6 +248,7 @@ body #outer_container .main_container .footer_block .author_inf .link {
 .substrate {
   background-color: #3a363659;
   position: absolute;
+  top: -1px;
   visibility: hidden;
   opacity: 0.5;
   width: 100%;

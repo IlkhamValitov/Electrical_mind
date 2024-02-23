@@ -8,6 +8,21 @@ $(window).ready(function(){
     let substrate = $('.substrate');
     let background = $('body');
 
+
+
+    let outer_c = $('#outer_container');
+    $(outer_c).click(function(){
+        console.log(111);
+    })
+
+
+
+
+
+
+
+
+
 //определено поведение в модуле галереи
 $(images).click(function(){
     $(background).addClass('no_scroll');
