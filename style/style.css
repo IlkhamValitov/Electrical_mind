@@ -373,9 +373,12 @@ body #outer_container .main_container .center_block .center_section .featured_ar
 .footer_block .author_inf {
   width: max-content;
   padding: 0 5px;
-  color: #f2e4ff;
   background-color: #141414;
   border-radius: 12px;
+}
+.footer_block .author_inf .link {
+  text-decoration: none;
+  color: #f2e4ff;
 }
 .footer_block .author_inf:hover {
   cursor: pointer;
