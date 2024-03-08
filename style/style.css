@@ -377,6 +377,9 @@ body #outer_container .main_container .center_block .center_section .featured_ar
   background-color: #141414;
   border-radius: 12px;
 }
+.footer_block .author_inf:hover {
+  cursor: pointer;
+}
 .suitable_gallery_size {
   height: 1000px;
 }
