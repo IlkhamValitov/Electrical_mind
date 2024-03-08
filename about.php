@@ -1,13 +1,13 @@
-<html lang="ru">
+<html class="mark" lang="ru">
     <head>  
         <meta charset="utf-8"/>
         <title>О чем речь?</title>
         <link rel="stylesheet" href="style/style.css">
-        <script defer src="script/script.js"></script>
         <script src="script/jquery.js"></script>
+        <script defer src="script/script.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body> 
+    <body class="mark"> 
         <section class="about_section">
             <div class="about_block">
                 <h3 class="about_title">О проекте</h3>
