@@ -372,7 +372,7 @@ body #outer_container .main_container .center_block .center_section .featured_ar
 }
 .footer_block .author_inf {
   width: max-content;
-  padding: 0px 5px;
+  padding: 0 5px;
   color: #f2e4ff;
   background-color: #141414;
   border-radius: 12px;
