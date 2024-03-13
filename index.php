@@ -7,9 +7,6 @@
         <script src="script/jquery.js"></script>
         <script src="script/script.js"></script>
         <script src="script/ajax.js"></script>
-       
-        
-
     </head>
     <body> 
         <div id="outer_container">

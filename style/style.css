@@ -210,6 +210,7 @@ body #outer_container .main_container .center_block .center_section .featured_ar
 .substrate {
   background-color: #3a363659;
   position: absolute;
+  top: -1px;
   visibility: hidden;
   opacity: 0.5;
   width: 100%;
