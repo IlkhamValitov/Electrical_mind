@@ -52,11 +52,14 @@ html, body{
                         background-color: rgb(11, 35, 172); /* Green */
                         color: #f2e4ff;
                         padding: 15px 32px;
-                        margin: 5px;
+                        margin: 0;
                         text-align: center;
                         text-decoration: none;
                         display: inline-block;
                         font-size: 16px;
+                    }
+                    .button:hover{
+                        background-color: rgb(4, 17, 91);
                     }
                 }
             }
@@ -293,6 +296,13 @@ html, body{
             width: 90%;
             margin: auto;
             text-align: justify;
+            .article_title{
+                font-family: 'Inter', sans-serif;
+                font-size: clamp(2rem,5vw,3rem);
+                line-height: 1.4;
+                // font-weight: 600;
+                letter-spacing: -.01rem;
+            }
         }
     }
 }

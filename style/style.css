@@ -65,11 +65,15 @@ body #outer_container .main_container .header_block .navigate_block .button {
   /* Green */
   color: #f2e4ff;
   padding: 15px 32px;
-  margin: 5px;
+  margin: 0;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+html #outer_container .main_container .header_block .navigate_block .button:hover,
+body #outer_container .main_container .header_block .navigate_block .button:hover {
+  background-color: #04115b;
 }
 html #outer_container .main_container .center_block,
 body #outer_container .main_container .center_block {
@@ -288,6 +292,12 @@ body #outer_container .main_container .center_block .center_section .featured_ar
   width: 90%;
   margin: auto;
   text-align: justify;
+}
+.about_section .about_block .about_article .article_title {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.4;
+  letter-spacing: -0.01rem;
 }
 .history_section {
   display: flex;
