@@ -73,7 +73,8 @@ body #outer_container .main_container .header_block .navigate_block .button {
 }
 html #outer_container .main_container .header_block .navigate_block .button:hover,
 body #outer_container .main_container .header_block .navigate_block .button:hover {
-  background-color: #04115b;
+  background-color: #f2e4ff;
+  color: #0b23ac;
 }
 html #outer_container .main_container .center_block,
 body #outer_container .main_container .center_block {
