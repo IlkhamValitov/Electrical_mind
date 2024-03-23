@@ -362,7 +362,7 @@ body #outer_container .main_container .center_block .center_section .featured_ar
   bottom: -150px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
 }
 .footer_block .second_nav_block {
